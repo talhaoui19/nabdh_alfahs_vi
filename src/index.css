@@ -1,0 +1,116 @@
+/* CARIO FONT */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #0f4c75;
+  --white-color: #ffffff;
+  --trans-duration: 0.5s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background-color: #fbfafa;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  cursor: pointer;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+::selection {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.transition {
+  transition: var(--trans-duration);
+}
+
+/* SATRT ANIMATON */
+.animation {
+  animation: animation 0.5s;
+}
+
+@keyframes animation {
+  0% {
+    scale: 0;
+  }
+
+  50% {
+    scale: 1.1;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+/* END ANIMATON */
+
+.button a:hover {
+  background-color: #ae7b3c;
+}
+
+
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
