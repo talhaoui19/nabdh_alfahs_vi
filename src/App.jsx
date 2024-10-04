@@ -16,7 +16,6 @@ const App = () => {
           <Route path="/images" element={<Images />} />
         </Routes>
       </main>
-      <h1>dddddddddddddddddd</h1>
       <Footer />
     </BrowserRouter>
   );
