@@ -4,7 +4,6 @@ const styles = {
     flexStart: "flex items-start justify-start",
     flexBetween: "flex items-center justify-between",
     flexColumn: "flex flex-col",
-  };
-  
-  export default styles;
-  
+};
+
+export default styles;

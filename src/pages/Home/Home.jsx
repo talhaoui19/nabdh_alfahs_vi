@@ -1,22 +1,22 @@
 import {
-  Who,
+  About,
+  Service,
+  Report,
+  WhyUS,
   Branches,
   Hero,
-  ContactComponent,
-  Values,
 } from "../../components/index";
 
 const Home = () => {
   return (
     // START HOME PAGE
     <section id="home">
-      <div className="">
-        <Hero />
-        <Who />
-        <Values />
-        <Branches />
-        <ContactComponent />
-      </div>
+      <Hero />
+      <About />
+      <WhyUS />
+      <Service />
+      <Report />
+      <Branches />
     </section>
     // END HOME PAGE
   );

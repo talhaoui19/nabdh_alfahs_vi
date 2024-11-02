@@ -1,45 +1,49 @@
-export const questionBox = [
+export const branches_data = [
   {
-    id: "box1",
-    title: "نبض الفحص لفحص السيارات",
-    pargraph: "الامارات العربية المتحدة , الشارقة , الصناعية 4",
+    id: "branche_1",
+    title: "الإمارات العربية المتحدة",
+    location_1: "الشارقة",
+    location_2: "المنطقة الصناعية 2",
+    phone: "+971527041021",
   },
   {
-    id: "box2",
-    title: "كارتيك اس دي السودان",
-    pargraph: " ,بحري , المغتربين",
+    id: "branche_2",
+    title: "المملكة العربية السعوديه",
+    location_1: "الرياض ",
+    location_2: "معارض القادسية",
+    phone: "+966574423265",
   },
   {
-    id: "box3",
-    title: "كارتيك اس دي , السودان",
-    pargraph: "الخرطوم ,عبيد ختم",
-  },
-  {
-    id: "box4",
-    title: "كارتيك اس دي , السودان",
-    pargraph: "أم درمان , الملازمين",
+    id: "branche_3",
+    title: "السودان",
+    location_1: "الخرطوم ",
+    location_2: "امدرمان ",
+    location_3: "بحري",
+    phone: "+249122078053",
   },
 ];
 
-export const navLinks = [
+export const nav_links = [
   {
-    id: "home",
-    title: "الرئيسية",
+    id: "#about",
+    title: "من نحن؟",
   },
   {
-    id: "about",
-    title: "من نحن",
+    id: "#why_us",
+    title: "لماذا نحن؟",
   },
   {
-    id: "services",
-    title: "خدماتنا",
+    id: "#service",
+    title: "أحدث الأجهزة",
   },
   {
-    id: "images",
-    title: "معرض الصور",
+    id: "#report",
+    title: "أدق التقارير",
   },
   {
-    id: "contact",
-    title: "تواصل معنا",
+    id: "#branches",
+    title: "فروعنا",
   },
 ];
+
+
