@@ -21,6 +21,7 @@ const App = () => {
         </Routes>
         <Footer />
       </main>
+      <Footer />
     </BrowserRouter>
   );
 };
