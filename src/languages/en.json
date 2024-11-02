@@ -1,0 +1,78 @@
+{
+  "navbar": {
+    "#why_us": "why us ?",
+    "#about": "Who we are?",
+    "#service": "Latest Technology",
+    "#report": "Accutare Reports",
+    "#branches": "Branches",
+    "contact": "Contact us",
+    "english": "Eng",
+    "arabic": "Ara"
+  },
+  "hero": {
+    "title": "Global Inspection Specialists",
+    "subtitle": "Safety on the road starts with a trusted repair service",
+    "contact": "Contact us",
+    "location": "View Location"
+  },
+  "about": {
+    "title": "Nabdh Alfahs Car Auto Testing",
+    "pargraph": "We offering professional and high-quality car inspection and maintenance services. The company provides a variety of services including pre-purchase vehicle inspection, computer fault diagnosis, and periodic maintenance systems inspection. Each service is carried out using the latest technologies and equipment to ensure the optimal safety and performance of your vehicle. The company is dedicated to delivering exceptional services and assisting you in keeping your car in top condition."
+  },
+  "why_us": {
+    "title": "why Us?",
+    "subtitle_4": "Advance Tech",
+    "subtitle_3": "Quality Standards",
+    "subtitle_2": "Professional Engineering",
+    "subtitle_1": "Accurate Inspection ",
+    "content_4": "We rely on precise and effective protocols to ensure the best solutions for car problems.",
+    "content_3": "We adhere to the highest international standards in inspection and maintenance to guarantee quality service for our clients.",
+    "content_2": "Our team consists of highly experienced engineers and technicians with over 7 years in the automotive industry.",
+    "content_1": "We rely on precise and effective protocols to ensure the best solutions for vehicle problems."
+  },
+  "service": {
+    "title": "Thorough Inspection With The Latest Equipment"
+  },
+  "report": {
+    "title": "Most Accurate Reports",
+    "content": "We use the latest advanced technologies to ensure a comprehensive and accurate inspection of all car components.",
+    "button": "Download Reports"
+  },
+
+  "our_branches": {
+    "title": "Our Branches",
+    "branche_1": {
+      "title": "United Arab Emirates",
+      "location_1": "Al sharjah ",
+      "location_2": "Industrial Area 4",
+      "phone": "+971527041021"
+    },
+    "branche_2": {
+      "title": "Saudi Arabia",
+      "location_1": "Riyadh",
+      "location_2": "Al-Qadisiyah Exhibition",
+      "phone": "+966574423265"
+    },
+    "branche_3": {
+      "title": "Sudan",
+      "location_1": "Khartoum",
+      "location_2": "Omdurman",
+      "location_3": "Bahri",
+      "phone": "+249122078053"
+    }
+  },
+  "footer": {
+    "title": "Safety on the road starts with a trusted repair service",
+    "location": "View Location",
+    "contact": " +971527041021",
+    "logo_name": "Nabdh",
+    "logo_content": "company specialized in providing professional vehicle inspection services with high-precision standards. ",
+    "footer_why_us": "why us?",
+    "footer_branches": "Branches",
+    "footer_report": "accurate reports",
+    "footer_about": "Who we are?",
+    "footer_service": "inspection",
+    "copy": "© 2024 NABDH. All rights reserved.",
+    "footer_location": "Al sharjah Industrial Area 4 near Ramz Mall, "
+  }
+}

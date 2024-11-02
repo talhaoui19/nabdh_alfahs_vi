@@ -1,11 +1,8 @@
-.nav_button {
-  background-color: var(--main-color);
-  color: white;
-  border: 1px solid var(--main-color);
-  padding: 10px 15px;
-  border-radius: 3px;
+.content-wrapper {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0);
 }
 
-nav .phoneMenu {
-  transition: all 0.4s ease-in-out;
+.navbar-open {
+  transform: translateY(250px);
 }

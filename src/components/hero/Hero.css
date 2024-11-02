@@ -1,6 +1,13 @@
 .hero {
+  background-image: url("../../assets/images/bg_hero_1.png");
+  background-size: cover;
+  height: 80vh;
+  border-radius: 40px;
+}
 
-    background-image: url("../../assets/images/bg_hero2.jpg");
-    background-size: cover;
-    height: 100vh;
+@media (max-width: 768px) {
+  .hero {
+    height: 42vh;
+    border-radius: 20px;
+  }
 }

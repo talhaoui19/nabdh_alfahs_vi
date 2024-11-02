@@ -1,0 +1,11 @@
+.footer {
+  background-image: url("../../assets/images/footer_bg.png");
+  background-size: cover;
+  height: 128vh;
+}
+
+@media (max-width: 868px) {
+  .footer {
+    height: 60vh;
+  }
+}
